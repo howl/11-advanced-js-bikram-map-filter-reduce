@@ -68,7 +68,7 @@ const staff = [
 
 ### Filter ###
 
-- [ ] 4.- Crea un segundo array result4 a partir del array numbers2 que devuelva solo los impares
+- [x] 4.- Crea un segundo array result4 a partir del array numbers2 que devuelva solo los impares
 
 ```
 const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
