@@ -134,7 +134,7 @@ const inventory = [
 
 ### Reduce ###
 
-- [x] 7.- Dado el siguiente array **numeros** [39, 2, 4, 25, 62], obten la multiplicación de todos los elementos del array
+- [x] 7.- Dado el siguiente array **numeros3** [39, 2, 4, 25, 62], obten la multiplicación de todos los elementos del array
 
 - [ ] 8.- Concatena todos los elementos del array con reduce para que devuelva una sola frase
 ```
