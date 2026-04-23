@@ -155,7 +155,7 @@ const sentenceElements = [
 
 ```
 
-- [ ] 9.- Obtener el monto total de los elementos que pertenecen a catergory "code" en el siguiente array.
+- [x] 9.- Obtener el monto total de los elementos que pertenecen a catergory "code" en el siguiente array.
 ```
 const books = [
   {
