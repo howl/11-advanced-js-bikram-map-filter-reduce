@@ -29,7 +29,7 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 ]
 ```
 
-- [ ] 3.- Dado el  array **staff**, crear un segundo array que forme frases como en el ejemplo accediendo a las propiedades del objeto proporcionado:
+- [x] 3.- Dado el  array **staff**, crear un segundo array que forme frases como en el ejemplo accediendo a las propiedades del objeto proporcionado:
 ```
 const staff = [
   {

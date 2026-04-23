@@ -17,3 +17,30 @@ const result2 = foodList.map(food => {
       return 'Aunque no como carne, el Entrecot es sabroso';
   }
 });
+
+// 3.- Dado el array staff, crear un segundo array que forme frases como en el ejemplo accediendo a las propiedades del objeto proporcionado
+const staff = [
+  {
+    name: 'Pepe',
+    role: 'The Boss',
+    hobbies: ['leer', 'ver pelis']
+  },
+  {
+    name: 'Ana',
+    role: 'becaria',
+    hobbies: ['nadar', 'bailar']
+  },
+  {
+    name: 'Luis',
+    role: 'programador',
+    hobbies: ['dormir', 'comprar']
+  },
+  {
+    name: 'Carlos',
+    role: 'secretario',
+    hobbies: ['futbol', 'queso']
+  }
+];
+const result3 = staff.map(empleado =>
+  `${empleado.name} es ${empleado.role} y le gusta ${empleado.hobbies[0]} y ${empleado.hobbies[1]}`
+);
