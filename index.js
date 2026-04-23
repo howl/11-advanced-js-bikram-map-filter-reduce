@@ -79,3 +79,24 @@ const result5 = foodList2.filter(food => food.isVeggie).map(food => {
   }
   return texto += ' me voy a comer!';
 });
+
+// 6.- Dado el array inventory, devolver un array con los nombres de los elementos que valgan más de 300 euros.
+const inventory = [
+  {
+    name: 'Mobile phone',
+    price: 199
+  },
+  {
+    name: 'TV Samsung',
+    price: 459
+  },
+  {
+    name: 'Viaje a Cancún',
+    price: 600
+  },
+  {
+    name: 'Mascarilla',
+    price: 1
+  }
+];
+const result6 = inventory.filter(item => item.price > 300).map(item => item.name);

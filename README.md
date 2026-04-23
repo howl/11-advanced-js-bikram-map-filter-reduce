@@ -101,7 +101,7 @@ const foodList2 =[
 ```
 
 
-- [ ] 6.- Dado el array **inventory**, devolver un array con los nombres de los elementos que valgan más de 300 euros.
+- [x] 6.- Dado el array **inventory**, devolver un array con los nombres de los elementos que valgan más de 300 euros.
 
 ```
 
