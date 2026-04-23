@@ -136,7 +136,7 @@ const inventory = [
 
 - [x] 7.- Dado el siguiente array **numeros3** [39, 2, 4, 25, 62], obten la multiplicación de todos los elementos del array
 
-- [ ] 8.- Concatena todos los elementos del array con reduce para que devuelva una sola frase
+- [x] 8.- Concatena todos los elementos del array con reduce para que devuelva una sola frase
 ```
 const sentenceElements = [
   'Me',

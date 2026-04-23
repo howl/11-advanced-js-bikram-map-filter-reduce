@@ -104,3 +104,18 @@ const result6 = inventory.filter(item => item.price > 300).map(item => item.name
 // 7.- Dado el siguiente array numeros [39, 2, 4, 25, 62], obten la multiplicación de todos los elementos del array
 const numeros3 = [39, 2, 4, 25, 62];
 const result7 = numeros3.reduce((acc, num) => acc * num, 1);
+
+// 8.- Concatena todos los elementos del array con reduce para que devuelva una sola frase
+const sentenceElements = [
+  'Me',
+  'llamo',
+  'Zapato',
+  'y',
+  'quiero',
+  'sentir',
+  'la',
+  'fuerza',
+  'con',
+  'javascript'
+];
+const result8 = sentenceElements.join(' ');
