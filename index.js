@@ -48,3 +48,34 @@ const result3 = staff.map(empleado =>
 // 4.- Crea un segundo array result4 a partir del array numbers2 que devuelva solo los impares
 const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const result4 = numbers2.filter(number => number % 2);
+
+// 5.- Dado el array foodList2, genera un segundo array result5 que filtre los platos veganos y saque una sentencia como la del ejemplo
+const foodList2 = [
+  {
+    name: 'Tempeh',
+    isVeggie: true
+  },
+  {
+    name: 'Cheesbacon burguer',
+    isVeggie: false
+  },
+  {
+    name: 'Tofu burguer',
+    isVeggie: true
+  },
+  {
+    name: 'Entrecot',
+    isVeggie: false
+  }];
+const result5 = foodList2.filter(food => food.isVeggie).map(food => {
+  let texto = 'Que ric';
+  switch (food.name) {
+    case 'Tempeh':
+      texto += `o ${food.name}`;
+      break;
+    case 'Tofu burguer':
+      texto += `a ${food.name}`;
+      break;
+  }
+  return texto += ' me voy a comer!';
+});
